@@ -21,6 +21,8 @@ jobs:
           output_action: comment
       - name: Update README
         run: |
+          - name: Update README
+      run: |
           sed -i 's/<!--START_SECTION:activity-->.*<!--END_SECTION:activity-->/<!--START_SECTION:activity-->\n\n<!--END_SECTION:activity-->/' README.md
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
