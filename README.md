@@ -4,12 +4,20 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hyqskevin&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Stats Transparent](https://github-readme-stats.vercel.app/api?username=hyqskevin&hide=contribs,issues&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+
 ---
 
 ### 📊 Recent Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
+
+---
+
+### 🐍 Snake Game
+
+![snake game](https://raw.githubusercontent.com/Platane/Platane/output/github-snake.svg)
 
 ---
 
