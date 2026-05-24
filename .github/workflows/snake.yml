@@ -1,5 +1,5 @@
 name: Generate Snake
-
+    
 on:
   schedule:
     - cron: "0 * * * *"
@@ -8,6 +8,8 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: Platane/snk@v3
@@ -15,8 +17,8 @@ jobs:
           github_user_name: hyqskevin
           outputs: |
             dist/github-snake.svg
-      - run: mv dist/github-snake.svg snake.svg
-      - uses: actions/upload-artifact@v4
+      - run: cp dist/github-snake.svg snake.svg
+      - uses: EndBug/add-and-commit@v9
         with:
-          name: snake
-          path: snake.svg
+          add: snake.svg
+          message: "docs: update snake game"
