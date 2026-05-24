@@ -13,7 +13,8 @@
 
 ### 🐍 Snake Game
 
-![snake game](https://raw.githubusercontent.com/Platane/Platane/output/github-snake.svg)
+![snake game](https://raw.githubusercontent.com/hyqskevin/hyqskevin/main/snake.svg)
+
 
 ---
 
