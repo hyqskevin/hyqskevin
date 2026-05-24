@@ -1,16 +1,29 @@
-name: Update README
+name: Metrics
 on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 jobs:
-  build:
-    name: Update this repo's README with recent activity
+  github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: lowlighter/metrics@master
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 20
+          plugin_activity_days: 90
+          output_action: comment
+      - name: Update README
+        run: |
+          sed -i 's/<!--START_SECTION:activity-->.*<!--END_SECTION:activity-->/<!--START_SECTION:activity-->\n\n<!--END_SECTION:activity-->/' README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "docs: update activity metrics"
+          git push
