@@ -6,15 +6,12 @@
 
 ### 📊 Recent Activity
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
+![Metrics](https://raw.githubusercontent.com/hyqskevin/hyqskevin/main/metrics.svg)
 ---
 
 ### 🐍 Snake Game
 
 ![snake game](https://raw.githubusercontent.com/hyqskevin/hyqskevin/main/snake.svg)
-
 
 ---
 
