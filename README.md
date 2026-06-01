@@ -6,7 +6,8 @@
 
 ### 📊 Recent Activity
 
-![Metrics](https://raw.githubusercontent.com/hyqskevin/hyqskevin/main/metrics.svg)
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
