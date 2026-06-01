@@ -7,6 +7,7 @@
 ### 📊 Recent Activity
 
 ![Metrics](https://raw.githubusercontent.com/hyqskevin/hyqskevin/main/metrics.svg)
+
 ---
 
 ### 🐍 Snake Game
