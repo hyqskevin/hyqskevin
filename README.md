@@ -7,6 +7,8 @@
 ### 📊 Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/hyqskevin/Claudio/pull/1) in [hyqskevin/Claudio](https://github.com/hyqskevin/Claudio)
+2. 💪 Opened PR [#1](https://github.com/hyqskevin/Claudio/pull/1) in [hyqskevin/Claudio](https://github.com/hyqskevin/Claudio)
 <!--END_SECTION:activity-->
 
 ---
