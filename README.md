@@ -7,7 +7,7 @@
 ### 📊 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](https://github.com/hyqskevin/Claudio/pull/2) in [hyqskevin/Claudio](https://github.com/hyqskevin/Claudio)
+1. 🚀 Published release [v0.3.0 - Scheduled Crawls, Dashboard Analytics & Hardening](https://github.com/hyqskevin/xhs-info-crawl/releases/tag/v0.3.0) in [hyqskevin/xhs-info-crawl](https://github.com/hyqskevin/xhs-info-crawl)
 2. 🎉 Merged PR [#1](https://github.com/hyqskevin/Claudio/pull/1) in [hyqskevin/Claudio](https://github.com/hyqskevin/Claudio)
 <!--END_SECTION:activity-->
 
